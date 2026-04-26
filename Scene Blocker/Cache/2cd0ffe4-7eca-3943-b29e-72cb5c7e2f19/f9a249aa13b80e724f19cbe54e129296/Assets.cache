@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0ab8e909-a4cd-43b5-a834-6caf3ffe5ccb: 2cd0ffe4-7eca-3943-b29e-72cb5c7e2f19/f9a249aa13b80e724f19cbe54e129296/Data/mic-no.png
+  Assets:
+    - !<FileTexture/0ab8e909-a4cd-43b5-a834-6caf3ffe5ccb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1274
+        Height: 2048
+  SourceHash: f9a249aa13b80e724f19cbe54e129296
+  FileHash: 2dd3dec1cb81c2d2815221a1ce60e85a
+  NativePackageItems:
+    []

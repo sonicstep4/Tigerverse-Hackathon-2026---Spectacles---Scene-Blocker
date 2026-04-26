@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4f3bfe91-f8ca-412e-8d6a-88e1ac118ba9: f0b20563-5df3-4a7f-7592-bcf0678aebb7/9853788563ef34c61b3e404c7483307d/Data/gdc-pres.png
+  Assets:
+    - !<FileTexture/4f3bfe91-f8ca-412e-8d6a-88e1ac118ba9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1320
+        Height: 1590
+  SourceHash: 9853788563ef34c61b3e404c7483307d
+  FileHash: ba7f22972a478d9f1b147fa0259a2d63
+  NativePackageItems:
+    []

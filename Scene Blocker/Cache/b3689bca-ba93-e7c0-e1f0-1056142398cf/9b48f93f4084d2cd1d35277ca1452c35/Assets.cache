@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b1fee819-632a-48a7-9063-71b8ee875f61: b3689bca-ba93-e7c0-e1f0-1056142398cf/9b48f93f4084d2cd1d35277ca1452c35/Data/upgrade.mp3
+  Assets:
+    - !<FileAudioTrack/b1fee819-632a-48a7-9063-71b8ee875f61>
+      PackagePath: ""
+  SourceHash: 9b48f93f4084d2cd1d35277ca1452c35
+  FileHash: 144f19b2ee0d9f1d38235c134daaac24
+  NativePackageItems:
+    []

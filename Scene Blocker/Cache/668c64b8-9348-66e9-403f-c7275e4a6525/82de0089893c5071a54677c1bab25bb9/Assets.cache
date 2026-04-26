@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    01ec1b26-d5f5-4c0a-bd32-b2a85b82b254: 668c64b8-9348-66e9-403f-c7275e4a6525/82de0089893c5071a54677c1bab25bb9/Data/Rectangle-Inactive.png
+  Assets:
+    - !<FileTexture/01ec1b26-d5f5-4c0a-bd32-b2a85b82b254>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 600
+        Height: 100
+  SourceHash: 82de0089893c5071a54677c1bab25bb9
+  FileHash: 5f85d75262d713fbf2ce8ff07faa19d4
+  NativePackageItems:
+    []

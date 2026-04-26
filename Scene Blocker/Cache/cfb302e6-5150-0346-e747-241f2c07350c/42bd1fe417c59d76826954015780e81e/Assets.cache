@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    471c2265-737f-4e57-980a-840f827dc95c: cfb302e6-5150-0346-e747-241f2c07350c/42bd1fe417c59d76826954015780e81e/Data/oauth-1.png
+  Assets:
+    - !<FileTexture/471c2265-737f-4e57-980a-840f827dc95c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 1288
+  SourceHash: 42bd1fe417c59d76826954015780e81e
+  FileHash: 8a52c38750161bc6901958354a09ef9a
+  NativePackageItems:
+    []

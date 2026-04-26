@@ -1,0 +1,74 @@
+- !<AssetImportMetadata/59a1c779-9a23-4db5-a925-5b58a629241e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c57c2434-0aef-40ce-89b1-d4c57514c838
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c57c2434-0aef-40ce-89b1-d4c57514c838
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6a7d9435-2e89-4c4f-8990-15b638405adb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6a7d9435-2e89-4c4f-8990-15b638405adb>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b6c2b7ed-cee6-4f5b-ab94-39f2df792ef0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoCalibrateOnStart: false
+    calibrateButton: false
+    cameraObject: false
+    cameraRelativeYOffset: false
+    debugLogs: false
+    forwardDistance: false
+    keepCurrentY: false
+    stageRoot: false
+    useCameraRelativeY: false
+    xOffset: false
+    yOffset: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - stageRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      calibrateButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      autoCalibrateOnStart: true
+      forwardDistance: !<float> 160.000000
+      xOffset: !<float> 0.000000
+      yOffset: !<float> 0.000000
+      keepCurrentY: false
+      useCameraRelativeY: true
+      cameraRelativeYOffset: !<float> -120.000000
+      debugLogs: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject stageRoot {"hint":"Root object that contains your blocking waypoints/path visuals"}'
+    - '// @input SceneObject cameraObject {"hint":"Camera or device-tracked object used for calibration reference"}'
+    - '// @input AssignableType calibrateButton {"hint":"Optional pinch button that triggers recalibration"}'
+    - '// @input bool autoCalibrateOnStart = true {"hint":"Auto-calibrate once on start"}'
+    - '// @input float forwardDistance = 160 {"hint":"Distance in front of user to place stage origin (cm)"}'
+    - '// @input float xOffset {"hint":"Horizontal offset from center (cm)"}'
+    - '// @input float yOffset {"hint":"Vertical offset from detected floor level (cm)"}'
+    - '// @input bool keepCurrentY = true {"hint":"If true, keep current stage Y instead of using floor projection"}'
+    - '// @input bool useCameraRelativeY {"hint":"If true, place stage using camera height + Y offset below"}'
+    - '// @input float cameraRelativeYOffset = -120 {"hint":"When using camera-relative Y, stage is placed this much below camera (cm)"}'
+    - '// @input bool debugLogs {"hint":"Enable debug logs in logger"}'

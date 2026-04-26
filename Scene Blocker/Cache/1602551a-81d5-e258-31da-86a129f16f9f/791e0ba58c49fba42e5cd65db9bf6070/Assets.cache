@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    13344477-3ece-4d9a-ab5b-98745c58ab21: 1602551a-81d5-e258-31da-86a129f16f9f/791e0ba58c49fba42e5cd65db9bf6070/Data/slides-hierarchy.png
+  Assets:
+    - !<FileTexture/13344477-3ece-4d9a-ab5b-98745c58ab21>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 636
+        Height: 1102
+  SourceHash: 791e0ba58c49fba42e5cd65db9bf6070
+  FileHash: 3726c49f034c9b830176154e211c1b71
+  NativePackageItems:
+    []

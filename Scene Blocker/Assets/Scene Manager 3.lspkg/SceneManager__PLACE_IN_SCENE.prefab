@@ -1,0 +1,91 @@
+- !<ObjectPrefab/a021470d-73a2-42b0-829d-d1d4eecf5e0d>
+  PackagePath: ""
+  objects:
+    - !<own> d8030ac6-8253-4d54-b378-b58b00a119ef
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/6a33bbf4-5669-49f0-a3ba-d0446771effd>
+  PrefabRemaps:
+    []
+  Name: SceneManager
+  Enabled: true
+  ScriptAsset: !<reference> e1c4d97c-aa3e-44a5-8061-1e2d3f4c71cd
+  ScriptInputsDefault:
+    localSceneRegistry: true
+    remoteSceneRegistry: true
+    customizeSceneManagerRoot: true
+    managerRoot: true
+    verbose: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      localSceneRegistry:
+        []
+      remoteSceneRegistry:
+        []
+      customizeSceneManagerRoot: false
+      managerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      verbose: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/94e903a1-f717-45c9-84a9-912f9c246618>
+  PrefabRemaps:
+    []
+  Name: SceneManaerSplashScreenHandler
+  Enabled: false
+  ScriptAsset: !<reference> 139500ef-726c-4b2a-8f92-b222ac28a3de
+  ScriptInputsDefault:
+    splashScreenSceneName: true
+    minimalDuration: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      splashScreenSceneName: ""
+      minimalDuration: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/c9bbb17e-25a5-4ba1-9e38-19a2beff7154>
+  PrefabRemaps:
+    []
+  Name: SceneManaerStartSceneLoader
+  Enabled: false
+  ScriptAsset: !<reference> 67327df3-4c09-49e8-b045-231319fc7f5a
+  ScriptInputsDefault:
+    defaultStartSceneName: true
+    usePlatformSpecificStartScene: true
+    platformSceneInitConfigs: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      defaultStartSceneName: ""
+      usePlatformSpecificStartScene: false
+      platformSceneInitConfigs:
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/d8030ac6-8253-4d54-b378-b58b00a119ef>
+  PrefabRemaps:
+    - 6a33bbf4-5669-49f0-a3ba-d0446771effd: 6a33bbf4-5669-49f0-5c45-2fbb988e1002
+    - 94e903a1-f717-45c9-84a9-912f9c246618: 94e903a1-f717-45c9-7b56-6ed063db99e7
+    - c9bbb17e-25a5-4ba1-9e38-19a2beff7154: c9bbb17e-25a5-4ba1-61c7-e65d41008eab
+    - d8030ac6-8253-4d54-b378-b58b00a119ef: d8030ac6-8253-4d54-4c87-4a74ff5ee610
+  Name: SceneManager__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6a33bbf4-5669-49f0-a3ba-d0446771effd
+    - !<own> c9bbb17e-25a5-4ba1-9e38-19a2beff7154
+    - !<own> 94e903a1-f717-45c9-84a9-912f9c246618

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    34bade45-e6ba-4314-9f13-86ae859bc969: e3fb1798-b92b-543f-4b16-42663d96d8bc/11fc841f65e80938b37de0b65b12548c/Data/direct-controller.html
+  Assets:
+    - !<BinAsset/34bade45-e6ba-4314-9f13-86ae859bc969>
+      PackagePath: ""
+  SourceHash: 11fc841f65e80938b37de0b65b12548c
+  FileHash: 956645bef434ec6a64414d1644adf3f5
+  NativePackageItems:
+    []

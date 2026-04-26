@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b6fce191-01d3-4d71-934d-79f8c03482ef: 29ce9868-f760-5c30-e06a-1a9a281be5ca/810c17f3ff088656bcb26171de3e9d32/Data/notification1.mp3
+  Assets:
+    - !<FileAudioTrack/b6fce191-01d3-4d71-934d-79f8c03482ef>
+      PackagePath: ""
+  SourceHash: 810c17f3ff088656bcb26171de3e9d32
+  FileHash: 3cc327831c4daf0eb699a315b407a2af
+  NativePackageItems:
+    []

@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/06fdc4b8-19ff-43fa-a280-48aa15112ca3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 448f941d-bcc3-4db5-a047-96bb127a0dfc
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 448f941d-bcc3-4db5-a047-96bb127a0dfc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> eb389396-584c-470b-84d2-f43805f32080
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/eb389396-584c-470b-84d2-f43805f32080>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a6c63671-1afb-4b09-958f-62770495ed0a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    micButton: false
+    speechController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - micButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      speechController: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType micButton {"hint":"Pinch button used to toggle microphone listening"}'
+    - '// @input AssignableType_1 speechController {"hint":"Speech controller script to toggle"}'

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    59a9ed2f-f6ec-4ba2-8056-7404fe366bdf: df0bb3f2-9a73-87b2-22aa-ec3bccab8871/d384e0820a48153e53202d489ef8b64a/Data/www_VertuoLine_Nespresso(EN_FR).pdf
+  Assets:
+    - !<BinAsset/59a9ed2f-f6ec-4ba2-8056-7404fe366bdf>
+      PackagePath: ""
+  SourceHash: d384e0820a48153e53202d489ef8b64a
+  FileHash: 3ebdf0d1815fa4eae86c8e18cc8370aa
+  NativePackageItems:
+    []

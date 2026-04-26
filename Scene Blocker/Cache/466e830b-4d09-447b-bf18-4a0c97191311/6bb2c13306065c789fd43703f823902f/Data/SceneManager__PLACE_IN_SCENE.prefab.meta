@@ -1,0 +1,112 @@
+- !<AssetImportMetadata/e194f2ea-2cbe-4170-8f69-11694389fa83>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 24ace2a7-e285-42ac-a92a-2a22762be9ee
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 24ace2a7-e285-42ac-a92a-2a22762be9ee
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 624334d2-41bb-485a-aefe-36e29f59b487
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/247303a8-ba2f-4923-9ac4-97e112b5dfdc>
+  PrefabRemaps:
+    []
+  Name: SceneManaerSplashScreenHandler
+  Enabled: false
+  ScriptAsset: !<reference> 6ab1b6f8-52bb-4102-8193-484790ea9fae
+  ScriptInputsDefault:
+    splashScreenSceneName: true
+    minimalDuration: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      splashScreenSceneName: ""
+      minimalDuration: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/41e85b5e-0791-40c3-b2b7-adc267c71a27>
+  PrefabRemaps:
+    []
+  Name: SceneManager__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7d0a20bb-ffab-4e13-9714-d3bea305f6e5
+    - !<own> 7cb763a7-4b2c-4e68-9eb3-2499e9b661a7
+    - !<own> 247303a8-ba2f-4923-9ac4-97e112b5dfdc
+- !<ObjectPrefabAssetData/624334d2-41bb-485a-aefe-36e29f59b487>
+  SourceRemaps:
+    - 24ace2a7-e285-42ac-a92a-2a22762be9ee: 69709d3b-8dd8-4a47-889c-de4f61d319fe
+    - 331edccb-36d9-4cd8-baaa-e0fce14144aa: 41e85b5e-0791-40c3-b2b7-adc267c71a27
+    - 622dc468-eb43-46b7-a93a-4af95871f6bf: 247303a8-ba2f-4923-9ac4-97e112b5dfdc
+    - 701cbba3-353f-462f-8bc0-a846a6bd2d06: 7d0a20bb-ffab-4e13-9714-d3bea305f6e5
+    - 86db596d-4c0f-4d82-b961-517a32491ead: 7cb763a7-4b2c-4e68-9eb3-2499e9b661a7
+  SourceState: !<own> 69709d3b-8dd8-4a47-889c-de4f61d319fe
+- !<ObjectPrefab/69709d3b-8dd8-4a47-889c-de4f61d319fe>
+  PackagePath: ""
+  objects:
+    - !<own> 41e85b5e-0791-40c3-b2b7-adc267c71a27
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/7cb763a7-4b2c-4e68-9eb3-2499e9b661a7>
+  PrefabRemaps:
+    []
+  Name: SceneManaerStartSceneLoader
+  Enabled: false
+  ScriptAsset: !<reference> 930cf092-6b6e-454e-b6be-fbe6c8d402c4
+  ScriptInputsDefault:
+    defaultStartSceneName: true
+    usePlatformSpecificStartScene: true
+    platformSceneInitConfigs: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      defaultStartSceneName: ""
+      usePlatformSpecificStartScene: false
+      platformSceneInitConfigs:
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/7d0a20bb-ffab-4e13-9714-d3bea305f6e5>
+  PrefabRemaps:
+    []
+  Name: SceneManager
+  Enabled: true
+  ScriptAsset: !<reference> bea1a2f6-31e9-47d9-a630-d336e9bef82f
+  ScriptInputsDefault:
+    localSceneRegistry: true
+    remoteSceneRegistry: true
+    customizeSceneManagerRoot: true
+    managerRoot: true
+    verbose: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      localSceneRegistry:
+        []
+      remoteSceneRegistry:
+        []
+      customizeSceneManagerRoot: false
+      managerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      verbose: false
+  ScriptTypes:
+    "":
+      {}

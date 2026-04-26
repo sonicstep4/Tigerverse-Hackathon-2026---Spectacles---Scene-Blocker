@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    88653960-5839-488b-b9c1-4c437fbaba97: 33f0b5b2-089c-4e88-6178-b73316b2abb1/9bf8db3579947970d283717f6397f534/Data/bubble_mid.mp3
+  Assets:
+    - !<FileAudioTrack/88653960-5839-488b-b9c1-4c437fbaba97>
+      PackagePath: ""
+  SourceHash: 9bf8db3579947970d283717f6397f534
+  FileHash: 7121e2d5ac1d7fc2f14124ed3d923b84
+  NativePackageItems:
+    []

@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/0799e540-f371-48b4-a3ae-5cb9d0feef32>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ec6f8cb9-b9f4-4d94-962c-91ccaabfa991
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ec6f8cb9-b9f4-4d94-962c-91ccaabfa991
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 31f8c4f3-1d00-42a4-8d59-562edb15b0e3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/31f8c4f3-1d00-42a4-8d59-562edb15b0e3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 362d66f7-7956-4187-b7b3-cee73a98bb85
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    forwardDistance: false
+    positionLerpSpeed: false
+    rotationLerpSpeed: false
+    sideOffset: false
+    verticalOffset: false
+    yawOnlyFacing: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - forwardDistance: !<float> 70.000000
+      sideOffset: !<float> 45.000000
+      verticalOffset: !<float> -20.000000
+      positionLerpSpeed: !<float> 8.000000
+      rotationLerpSpeed: !<float> 10.000000
+      yawOnlyFacing: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float forwardDistance = 70 {"hint":"Distance in front of the user (cm)"}'
+    - '// @input float sideOffset = 45 {"hint":"Horizontal side offset from user center (cm). Positive=right, Negative=left"}'
+    - '// @input float verticalOffset = -20 {"hint":"Vertical offset relative to camera (cm)"}'
+    - '// @input float positionLerpSpeed = 8 {"hint":"Position smoothing speed (higher = snappier)"}'
+    - '// @input float rotationLerpSpeed = 10 {"hint":"Rotation smoothing speed (higher = snappier)"}'
+    - '// @input bool yawOnlyFacing = true {"hint":"If true, panel keeps upright and only yaws to face user"}'

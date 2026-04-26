@@ -1,0 +1,91 @@
+- !<ObjectPrefab/e5f36fb0-9be1-4068-8cda-d92f30f23699>
+  PackagePath: ""
+  objects:
+    - !<own> 0b7b7311-ec92-49b5-883b-b56824e7d940
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/0b7b7311-ec92-49b5-883b-b56824e7d940>
+  PrefabRemaps:
+    - 0b7b7311-ec92-49b5-883b-b56824e7d940: 0b7b7311-ec92-49b5-77c4-4a97db1826bf
+    - 23aea563-c666-442e-bba4-250be1d547be: 23aea563-c666-442e-445b-daf41e2ab841
+    - 2bcca023-1665-4db5-b975-01f63dded636: 2bcca023-1665-4db5-468a-fe09c22129c9
+    - ca07203d-0566-40b7-acfc-843766de2499: ca07203d-0566-40b7-5303-7bc89921db66
+  Name: SceneManager__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2bcca023-1665-4db5-b975-01f63dded636
+    - !<own> ca07203d-0566-40b7-acfc-843766de2499
+    - !<own> 23aea563-c666-442e-bba4-250be1d547be
+- !<ScriptComponent/23aea563-c666-442e-bba4-250be1d547be>
+  PrefabRemaps:
+    []
+  Name: SceneManaerSplashScreenHandler
+  Enabled: false
+  ScriptAsset: !<reference> 797bfae1-6248-4566-beb2-f8bd62427f51
+  ScriptInputsDefault:
+    splashScreenSceneName: true
+    minimalDuration: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      splashScreenSceneName: ""
+      minimalDuration: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/2bcca023-1665-4db5-b975-01f63dded636>
+  PrefabRemaps:
+    []
+  Name: SceneManager
+  Enabled: true
+  ScriptAsset: !<reference> 8c42f308-d764-420c-a0ef-c922c6d25df1
+  ScriptInputsDefault:
+    localSceneRegistry: true
+    remoteSceneRegistry: true
+    customizeSceneManagerRoot: true
+    managerRoot: true
+    verbose: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      localSceneRegistry:
+        []
+      remoteSceneRegistry:
+        []
+      customizeSceneManagerRoot: false
+      managerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      verbose: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/ca07203d-0566-40b7-acfc-843766de2499>
+  PrefabRemaps:
+    []
+  Name: SceneManaerStartSceneLoader
+  Enabled: false
+  ScriptAsset: !<reference> 1ac02f73-3064-4a79-a412-5945061cd484
+  ScriptInputsDefault:
+    defaultStartSceneName: true
+    usePlatformSpecificStartScene: true
+    platformSceneInitConfigs: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      defaultStartSceneName: ""
+      usePlatformSpecificStartScene: false
+      platformSceneInitConfigs:
+        []
+  ScriptTypes:
+    "":
+      {}

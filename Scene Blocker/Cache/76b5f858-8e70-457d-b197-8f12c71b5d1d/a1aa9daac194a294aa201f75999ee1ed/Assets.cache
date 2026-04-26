@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    96984afb-22aa-4af9-b2cd-5e9473c7a91b: 76b5f858-8e70-457d-b197-8f12c71b5d1d/a1aa9daac194a294aa201f75999ee1ed/Data/orientation.png
+  Assets:
+    - !<FileTexture/96984afb-22aa-4af9-b2cd-5e9473c7a91b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 787
+  SourceHash: a1aa9daac194a294aa201f75999ee1ed
+  FileHash: 69d4f2d3952b3e6df18ea05cbd3f356a
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    dd9f676f-209a-49b6-b7eb-6ded9a8c36f2: dd7cc31a-87e5-061a-e428-31cad90d2af7/81208f1f896b53aa9f2de948f9187e5c/Data/SIKContainerExampleImage.jpg
+  Assets:
+    - !<FileTexture/dd9f676f-209a-49b6-b7eb-6ded9a8c36f2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 81208f1f896b53aa9f2de948f9187e5c
+  FileHash: 02b1db1b4be35d4deb2ddba89e84f55f
+  NativePackageItems:
+    []

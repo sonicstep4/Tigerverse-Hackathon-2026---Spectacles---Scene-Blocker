@@ -1,0 +1,11 @@
+data:
+  externalSources:
+    - 1276d62a-6bca-42b8-9e9b-3477ffa6e4f3: /Users/sonicstep4/Library/Preferences/Snap/Lens Studio/LibraryComponents/SpectaclesInteractionKit@0.17.2/SpectaclesInteractionKit.lspkg
+    - 16940970-bb6c-49f9-8415-46c039e6011b: /Users/sonicstep4/Library/Preferences/Snap/Lens Studio/LibraryComponents/Utilities@1.0.0/Utilities.lspkg
+    - 50a710c0-9830-493d-b441-4781aced6b76: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/WorldMeshMaterial/Resources/world_mesh.ss_graph
+    - 6d2b69b8-2317-4152-8e33-a1c0e21e8890: /Users/sonicstep4/Library/Preferences/Snap/Lens Studio/LibraryComponents/SpectaclesInteractionKit@0.17.2/SpectaclesInteractionKit.lspkg
+    - 75c016cf-b258-40d2-be14-d8946e3fce41: /Users/sonicstep4/Library/Preferences/Snap/Lens Studio/LibraryComponents/GuidedInstructions@1.0.0/GuidedInstructions.lspkg
+    - 7685b489-70e0-4bbf-b9cf-1383bbfbd3b9: /Users/sonicstep4/Library/Preferences/Snap/Lens Studio/LibraryComponents/RemoteServiceGateway@0.1.10/RemoteServiceGateway.lspkg
+    - cb73a8f7-3010-4314-a6bf-23efce42bd27: /Users/sonicstep4/Library/Preferences/Snap/Lens Studio/LibraryComponents/SnapDecorators@1.0.0/SnapDecorators.lspkg
+    - d9d9c489-7f63-4f2a-ad1f-e479e360d135: /Users/sonicstep4/Library/Preferences/Snap/Lens Studio/LibraryComponents/EasyTeleprompter@1.1.0/EasyTeleprompter.lspkg
+    - f405cd17-df23-4a98-ac2e-41c4b26ec1bf: /Users/sonicstep4/Library/Preferences/Snap/Lens Studio/LibraryComponents/Spatial Anchors@0.0.8/Spatial Anchors.lspkg

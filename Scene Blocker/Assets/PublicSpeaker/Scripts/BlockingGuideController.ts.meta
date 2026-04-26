@@ -1,0 +1,128 @@
+- !<AssetImportMetadata/449558b1-d025-48d5-90ad-7a6052218f25>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5ab19353-0f8a-46b2-9244-afefce837be5
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5ab19353-0f8a-46b2-9244-afefce837be5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 124f3a3a-5105-48e5-9766-96db06ce1c1d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/124f3a3a-5105-48e5-9766-96db06ce1c1d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5e1f3a25-fcff-4870-8910-37456adb0224
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugLogInterval: false
+    debugLogs: false
+    extendPastPlayer: false
+    extendPastTarget: false
+    firstContentSlideIndex: false
+    floorYOffset: false
+    lockPathToGroundPlane: false
+    pathCapLength: false
+    pathCapSegments: false
+    pathHeight: false
+    pathLift: false
+    pathVisual: false
+    pathWidth: false
+    playerReference: false
+    playerToFloorOffset: false
+    presentationSwitcher: false
+    pulseColorA: false
+    pulseColorB: false
+    pulsePathColor: false
+    pulseSpeed: false
+    scrollPathTexture: false
+    targetMarker: false
+    targetScale: false
+    targetYOffset: false
+    textureScrollSpeed: false
+    textureScrollU: false
+    textureScrollV: false
+    usePlayerEstimatedGroundPlane: false
+    waypointRoot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - presentationSwitcher: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      waypointRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      firstContentSlideIndex: !<float> 1.000000
+      pathVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      targetMarker: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      playerReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pathWidth: !<float> 18.000000
+      pathHeight: !<float> 6.000000
+      pathCapLength: !<float> 12.000000
+      pathCapSegments: !<float> 4.000000
+      floorYOffset: !<float> 2.000000
+      pathLift: !<float> 0.000000
+      targetYOffset: !<float> 4.000000
+      targetScale: 0.850000
+      extendPastPlayer: !<float> 20.000000
+      extendPastTarget: !<float> 30.000000
+      lockPathToGroundPlane: true
+      usePlayerEstimatedGroundPlane: true
+      playerToFloorOffset: !<float> -140.000000
+      pulsePathColor: true
+      pulseSpeed: 1.200000
+      scrollPathTexture: true
+      textureScrollSpeed: 0.350000
+      textureScrollU: !<float> 0.000000
+      textureScrollV: !<float> -1.000000
+      pulseColorA: !<Vec4> {x: 0.100000, y: 0.900000, z: 1.000000, w: 1.000000}
+      pulseColorB: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.200000, w: 1.000000}
+      debugLogs: true
+      debugLogInterval: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType presentationSwitcher {"hint":"Presentation switcher used for scene line progression"}'
+    - '// @input SceneObject waypointRoot {"hint":"Parent containing waypoint children in blocking order"}'
+    - '// @input float firstContentSlideIndex = 1 {"hint":"First slide index that should map to waypoint 0 (intro slides come before this)"}'
+    - '// @input Component.RenderMeshVisual pathVisual {"hint":"Render mesh visual that draws the floor track"}'
+    - '// @input SceneObject targetMarker {"hint":"Optional marker object that is moved to the current target waypoint"}'
+    - '// @input SceneObject playerReference {"hint":"Optional player/camera reference for dynamic follow path start"}'
+    - '// @input float pathWidth = 45 {"hint":"Path width in centimeters"}'
+    - '// @input float pathHeight = 6 {"hint":"Path thickness/height in centimeters"}'
+    - '// @input float pathCapLength = 12 {"hint":"Rounded cap length at each end (cm)"}'
+    - '// @input float pathCapSegments = 4 {"hint":"Rounded cap smoothness segments"}'
+    - '// @input float floorYOffset = 8 {"hint":"Vertical offset to avoid z-fighting with the floor"}'
+    - '// @input float pathLift {"hint":"Additional vertical lift applied directly to final path (cm)"}'
+    - '// @input float targetYOffset = 4 {"hint":"Target marker vertical offset in centimeters"}'
+    - '// @input float targetScale = 0.75 {"hint":"Target marker world scale multiplier"}'
+    - '// @input float extendPastPlayer = 20 {"hint":"Extend path backward from player by this amount (cm)"}'
+    - '// @input float extendPastTarget = 30 {"hint":"Extend path past target by this amount (cm)"}'
+    - '// @input bool lockPathToGroundPlane = true {"hint":"Keep path locked to the ground plane of the current target"}'
+    - '// @input bool usePlayerEstimatedGroundPlane = true {"hint":"Use player height to estimate floor plane for the path"}'
+    - '// @input float playerToFloorOffset = -140 {"hint":"Estimated floor offset below player/camera in cm"}'
+    - '// @input bool pulsePathColor = true {"hint":"Animate path color pulse for better visibility"}'
+    - '// @input float pulseSpeed = 1.2 {"hint":"Pulse speed (cycles per second)"}'
+    - '// @input bool scrollPathTexture = true {"hint":"Animate texture UV scroll along the path"}'
+    - '// @input float textureScrollSpeed = 0.35 {"hint":"Texture scroll speed (UV units per second)"}'
+    - '// @input float textureScrollU {"hint":"Texture scroll direction on U axis"}'
+    - '// @input float textureScrollV = -1 {"hint":"Texture scroll direction on V axis"}'
+    - '// @input vec4 pulseColorA = {0.1,0.9,1,1} {"hint":"Primary pulse color"}'
+    - '// @input vec4 pulseColorB = {1,1,0.2,1} {"hint":"Secondary pulse color"}'
+    - '// @input bool debugLogs {"hint":"Enable debug logs for target/path updates"}'
+    - '// @input float debugLogInterval = 1 {"hint":"How often (seconds) to print update logs"}'

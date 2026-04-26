@@ -1,0 +1,447 @@
+"use strict";
+var __esDecorate = (this && this.__esDecorate) || function (ctor, descriptorIn, decorators, contextIn, initializers, extraInitializers) {
+    function accept(f) { if (f !== void 0 && typeof f !== "function") throw new TypeError("Function expected"); return f; }
+    var kind = contextIn.kind, key = kind === "getter" ? "get" : kind === "setter" ? "set" : "value";
+    var target = !descriptorIn && ctor ? contextIn["static"] ? ctor : ctor.prototype : null;
+    var descriptor = descriptorIn || (target ? Object.getOwnPropertyDescriptor(target, contextIn.name) : {});
+    var _, done = false;
+    for (var i = decorators.length - 1; i >= 0; i--) {
+        var context = {};
+        for (var p in contextIn) context[p] = p === "access" ? {} : contextIn[p];
+        for (var p in contextIn.access) context.access[p] = contextIn.access[p];
+        context.addInitializer = function (f) { if (done) throw new TypeError("Cannot add initializers after decoration has completed"); extraInitializers.push(accept(f || null)); };
+        var result = (0, decorators[i])(kind === "accessor" ? { get: descriptor.get, set: descriptor.set } : descriptor[key], context);
+        if (kind === "accessor") {
+            if (result === void 0) continue;
+            if (result === null || typeof result !== "object") throw new TypeError("Object expected");
+            if (_ = accept(result.get)) descriptor.get = _;
+            if (_ = accept(result.set)) descriptor.set = _;
+            if (_ = accept(result.init)) initializers.unshift(_);
+        }
+        else if (_ = accept(result)) {
+            if (kind === "field") initializers.unshift(_);
+            else descriptor[key] = _;
+        }
+    }
+    if (target) Object.defineProperty(target, contextIn.name, descriptor);
+    done = true;
+};
+var __runInitializers = (this && this.__runInitializers) || function (thisArg, initializers, value) {
+    var useValue = arguments.length > 2;
+    for (var i = 0; i < initializers.length; i++) {
+        value = useValue ? initializers[i].call(thisArg, value) : initializers[i].call(thisArg);
+    }
+    return useValue ? value : void 0;
+};
+var __setFunctionName = (this && this.__setFunctionName) || function (f, name, prefix) {
+    if (typeof name === "symbol") name = name.description ? "[".concat(name.description, "]") : "";
+    return Object.defineProperty(f, "name", { configurable: true, value: prefix ? "".concat(prefix, " ", name) : name });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SoftPressController = void 0;
+var __selfType = requireType("./SoftPressController");
+function component(target) {
+    target.getTypeName = function () { return __selfType; };
+    if (target.prototype.hasOwnProperty("getTypeName"))
+        return;
+    Object.defineProperty(target.prototype, "getTypeName", {
+        value: function () { return __selfType; },
+        configurable: true,
+        writable: true
+    });
+}
+const Logger_1 = require("Utilities.lspkg/Scripts/Utils/Logger");
+const HandVisual_1 = require("SpectaclesInteractionKit.lspkg/Components/Interaction/HandVisual/HandVisual");
+const animate_1 = require("SpectaclesInteractionKit.lspkg/Utils/animate");
+const mathUtils_1 = require("SpectaclesInteractionKit.lspkg/Utils/mathUtils");
+const NativeLogger_1 = require("SpectaclesInteractionKit.lspkg/Utils/NativeLogger");
+const log = new NativeLogger_1.default("SoftPressController");
+let SoftPressController = (() => {
+    let _classDecorators = [component];
+    let _classDescriptor;
+    let _classExtraInitializers = [];
+    let _classThis;
+    let _classSuper = BaseScriptComponent;
+    var SoftPressController = _classThis = class extends _classSuper {
+        constructor() {
+            super();
+            this.colliderObject = this.colliderObject;
+            this.interactorPrefab = this.interactorPrefab;
+            this.useRightHand = this.useRightHand;
+            this.closestPointMarker = this.closestPointMarker;
+            this.topVertex0 = this.topVertex0;
+            this.topVertex1 = this.topVertex1;
+            this.topVertex2 = this.topVertex2;
+            this.topVertex3 = this.topVertex3;
+            this.bottomVertex0 = this.bottomVertex0;
+            this.bottomVertex1 = this.bottomVertex1;
+            this.bottomVertex2 = this.bottomVertex2;
+            this.bottomVertex3 = this.bottomVertex3;
+            this.pressThreshold = this.pressThreshold;
+            this.resetDuration = this.resetDuration;
+            this.presentationSwitcher = this.presentationSwitcher;
+            this.googleSlideBridge = this.googleSlideBridge;
+            this.next = this.next;
+            this.useGoogleSlide = this.useGoogleSlide;
+            this.enableLogging = this.enableLogging;
+            this.enableLoggingLifecycle = this.enableLoggingLifecycle;
+            this.isInteracting = false;
+            this.pressValue = 0;
+            this.hasTriggeredEvent = false;
+            this.isResetting = false;
+            this.resetProgress = 0;
+            this.activeOverlapId = null; // Track the active overlap ID
+        }
+        __initialize() {
+            super.__initialize();
+            this.colliderObject = this.colliderObject;
+            this.interactorPrefab = this.interactorPrefab;
+            this.useRightHand = this.useRightHand;
+            this.closestPointMarker = this.closestPointMarker;
+            this.topVertex0 = this.topVertex0;
+            this.topVertex1 = this.topVertex1;
+            this.topVertex2 = this.topVertex2;
+            this.topVertex3 = this.topVertex3;
+            this.bottomVertex0 = this.bottomVertex0;
+            this.bottomVertex1 = this.bottomVertex1;
+            this.bottomVertex2 = this.bottomVertex2;
+            this.bottomVertex3 = this.bottomVertex3;
+            this.pressThreshold = this.pressThreshold;
+            this.resetDuration = this.resetDuration;
+            this.presentationSwitcher = this.presentationSwitcher;
+            this.googleSlideBridge = this.googleSlideBridge;
+            this.next = this.next;
+            this.useGoogleSlide = this.useGoogleSlide;
+            this.enableLogging = this.enableLogging;
+            this.enableLoggingLifecycle = this.enableLoggingLifecycle;
+            this.isInteracting = false;
+            this.pressValue = 0;
+            this.hasTriggeredEvent = false;
+            this.isResetting = false;
+            this.resetProgress = 0;
+            this.activeOverlapId = null; // Track the active overlap ID
+        }
+        onAwake() {
+            this.logger = new Logger_1.Logger("SoftPressController", this.enableLogging || this.enableLoggingLifecycle, true);
+            if (this.enableLoggingLifecycle) {
+                this.logger.debug("LIFECYCLE: onAwake() - Component initializing");
+            }
+            // Get the collider component
+            this.collider = this.colliderObject.getComponent("Physics.ColliderComponent");
+            // Setup hand tracking and instantiate interactor prefab
+            this.setupHandTracking();
+            // Bind the onStart event
+            this.createEvent("OnStartEvent").bind(() => {
+                this.onStart();
+                this.logger.debug("OnStart event triggered");
+            });
+            // Bind the update event
+            this.createEvent("UpdateEvent").bind(() => {
+                this.update();
+                this.logger.debug("Update event triggered");
+            });
+            // Calculate the top and bottom positions in local space by averaging the vertices
+            const topPositions = [
+                this.topVertex0.getTransform().getWorldPosition(),
+                this.topVertex1.getTransform().getWorldPosition(),
+                this.topVertex2.getTransform().getWorldPosition(),
+                this.topVertex3.getTransform().getWorldPosition()
+            ];
+            const bottomPositions = [
+                this.bottomVertex0.getTransform().getWorldPosition(),
+                this.bottomVertex1.getTransform().getWorldPosition(),
+                this.bottomVertex2.getTransform().getWorldPosition(),
+                this.bottomVertex3.getTransform().getWorldPosition()
+            ];
+            // Average the top and bottom positions in world space
+            const worldTop = topPositions.reduce((sum, pos) => sum.add(pos), vec3.zero()).scale(new vec3(0.25, 0.25, 0.25));
+            const worldBottom = bottomPositions
+                .reduce((sum, pos) => sum.add(pos), vec3.zero())
+                .scale(new vec3(0.25, 0.25, 0.25));
+            // Convert to local space of the collider
+            const colliderTransform = this.colliderObject.getTransform();
+            const inverseWorldTransform = colliderTransform.getInvertedWorldTransform();
+            this.localTop = inverseWorldTransform.multiplyPoint(worldTop);
+            this.localBottom = inverseWorldTransform.multiplyPoint(worldBottom);
+            // Initialize press value and last closest point (in local space)
+            this.pressValue = 0;
+            this.lastClosestPointLocal = this.localTop;
+        }
+        setupHandTracking() {
+            // Find the appropriate hand visual in the scene by searching all objects
+            let foundHandVisual = null;
+            // Search through all root objects and their children
+            const rootCount = global.scene.getRootObjectsCount();
+            for (let i = 0; i < rootCount; i++) {
+                const rootObject = global.scene.getRootObject(i);
+                foundHandVisual = this.searchForHandVisual(rootObject);
+                if (foundHandVisual)
+                    break;
+            }
+            if (!foundHandVisual) {
+                const handTypeName = this.useRightHand ? "Right" : "Left";
+                this.logger.error(`Could not find ${handTypeName} hand visual in the scene`);
+                return;
+            }
+            this.handVisual = foundHandVisual;
+            // Instantiate the interactor prefab
+            if (this.interactorPrefab) {
+                this.interactorObject = this.interactorPrefab.instantiate(null);
+                // Attach the interactor to the wrist
+                this.attachToWrist();
+                const handTypeName = this.useRightHand ? "Right" : "Left";
+                this.logger.debug(`Interactor prefab instantiated and attached to ${handTypeName} wrist`);
+            }
+            else {
+                this.logger.error("Interactor prefab is not assigned");
+            }
+        }
+        searchForHandVisual(sceneObject) {
+            // Check if this object has a HandVisual component
+            try {
+                const handVisual = sceneObject.getComponent(HandVisual_1.HandVisual.getTypeName());
+                if (handVisual) {
+                    const handName = sceneObject.name.toLowerCase();
+                    // Check if this is the correct hand based on useRightHand selection
+                    // true = Right hand, false = Left hand
+                    const isCorrectHand = (!this.useRightHand && handName.includes("left")) || (this.useRightHand && handName.includes("right"));
+                    if (isCorrectHand) {
+                        return handVisual;
+                    }
+                }
+            }
+            catch (e) {
+                // Object doesn't have HandVisual component, continue searching
+            }
+            // Search through children
+            for (let i = 0; i < sceneObject.getChildrenCount(); i++) {
+                const child = sceneObject.getChild(i);
+                const result = this.searchForHandVisual(child);
+                if (result)
+                    return result;
+            }
+            return null;
+        }
+        attachToWrist() {
+            if (!this.handVisual || !this.interactorObject)
+                return;
+            // First try to get the wrist from the hand visual (if it was auto-mapped)
+            let wristObject = this.handVisual.wrist;
+            // If wrist is not found, search for it manually in the hierarchy
+            if (!wristObject) {
+                this.logger.warn("Wrist not found on HandVisual, searching manually...");
+                wristObject = this.findWristInHierarchy(this.handVisual.getSceneObject());
+            }
+            if (wristObject) {
+                // Parent the interactor to the wrist
+                this.interactorObject.setParent(wristObject);
+                // Reset local transform to attach properly
+                this.interactorObject.getTransform().setLocalPosition(vec3.zero());
+                this.interactorObject.getTransform().setLocalRotation(quat.quatIdentity());
+                this.interactorObject.getTransform().setLocalScale(vec3.one());
+                this.logger.debug("Interactor successfully attached to wrist");
+            }
+            else {
+                this.logger.error("Could not find wrist object in hand visual hierarchy");
+            }
+        }
+        findWristInHierarchy(sceneObject) {
+            // Check if this object is named "wrist"
+            if (sceneObject.name.toLowerCase() === "wrist") {
+                return sceneObject;
+            }
+            // Recursively search children
+            for (let i = 0; i < sceneObject.getChildrenCount(); i++) {
+                const child = sceneObject.getChild(i);
+                const result = this.findWristInHierarchy(child);
+                if (result)
+                    return result;
+            }
+            return null;
+        }
+        onStart() {
+            // Setup overlap events for the collider
+            this.collider.onOverlapEnter.add((e) => {
+                const overlap = e.overlap;
+                if (overlap.collider.getSceneObject() === this.interactorObject) {
+                    // Check if the interactor entered from the top
+                    if (this.isEnteringFromTop()) {
+                        this.logger.debug(`OverlapEnter(${overlap.id}): Interactor entered from the top. Starting soft press interaction.`);
+                        this.isInteracting = true;
+                        this.isResetting = false; // Stop any ongoing reset
+                        this.resetProgress = 0;
+                        this.activeOverlapId = overlap.id; // Store the overlap ID
+                    }
+                    else {
+                        this.logger.debug(`OverlapEnter(${overlap.id}): Interactor did not enter from the top. Ignoring.`);
+                    }
+                }
+            });
+            this.collider.onOverlapStay.add((e) => {
+                const overlap = e.overlap;
+                if (overlap.collider.getSceneObject() === this.interactorObject &&
+                    this.isInteracting &&
+                    overlap.id === this.activeOverlapId) {
+                    this.logger.debug(`OverlapStay(${overlap.id}): Processing soft press interaction.`);
+                    this.calculatePressValue();
+                }
+            });
+            this.collider.onOverlapExit.add((e) => {
+                const overlap = e.overlap;
+                if (overlap.collider.getSceneObject() === this.interactorObject && overlap.id === this.activeOverlapId) {
+                    this.logger.debug(`OverlapExit(${overlap.id}): Interactor exited the collider. Starting smooth reset of press value.`);
+                    this.isInteracting = false;
+                    this.isResetting = true;
+                    this.resetProgress = 0;
+                    this.activeOverlapId = null; // Clear the overlap ID
+                }
+            });
+        }
+        // Check if the interactor is entering from the top (local up direction of the collider)
+        isEnteringFromTop() {
+            const interactorPos = this.interactorObject.getTransform().getWorldPosition();
+            const colliderPos = this.colliderObject.getTransform().getWorldPosition();
+            const colliderUp = this.colliderObject.getTransform().up; // Local up direction in world space
+            // Vector from collider center to interactor
+            const directionToInteractor = interactorPos.sub(colliderPos).normalize();
+            // Dot product between collider's up direction and the direction to the interactor
+            const dot = directionToInteractor.dot(colliderUp);
+            // If dot product is positive and close to 1, the interactor is above the collider
+            return dot > 0.5; // Adjust threshold as needed
+        }
+        // Calculate the press value (0 to 1) based on the closest point's position
+        calculatePressValue() {
+            const interactorPos = this.interactorObject.getTransform().getWorldPosition();
+            // Convert interactor position to local space of the collider
+            const colliderTransform = this.colliderObject.getTransform();
+            const inverseWorldTransform = colliderTransform.getInvertedWorldTransform();
+            const interactorPosLocal = inverseWorldTransform.multiplyPoint(interactorPos);
+            // Find the closest point on the collider to the interactor (in world space)
+            // Since closestPoint is not available, we'll use the line from top to bottom instead
+            const worldTop = colliderTransform.getWorldTransform().multiplyPoint(this.localTop);
+            const worldBottom = colliderTransform.getWorldTransform().multiplyPoint(this.localBottom);
+            // Calculate the direction from top to bottom
+            const topToBottom = worldBottom.sub(worldTop);
+            const topToInteractor = interactorPos.sub(worldTop);
+            // Project the interactor position onto the line
+            const projectionRatio = (0, mathUtils_1.clamp)(topToInteractor.dot(topToBottom) / topToBottom.dot(topToBottom), 0, 1);
+            // Calculate the closest point on the line
+            const closestPointWorld = worldTop.add(topToBottom.scale(new vec3(projectionRatio, projectionRatio, projectionRatio)));
+            // Convert the closest point to local space
+            const closestPointLocal = inverseWorldTransform.multiplyPoint(closestPointWorld);
+            this.lastClosestPointLocal = closestPointLocal; // Store for reset
+            // Project the closest point onto the line from top to bottom (in local space)
+            const localTopToBottom = this.localBottom.sub(this.localTop);
+            const topToClosest = closestPointLocal.sub(this.localTop);
+            const projectionLength = topToClosest.dot(localTopToBottom.normalize());
+            const totalLength = localTopToBottom.length;
+            // Calculate the press value (0 at top, 1 at bottom)
+            const newPressValue = (0, mathUtils_1.clamp)(projectionLength / totalLength, 0, 1);
+            // Update press value and check for event trigger
+            this.pressValue = newPressValue;
+            this.logger.debug(`Press value: ${this.pressValue}`);
+            // Optionally move the marker to the closest point (in world space, for visualization)
+            if (this.closestPointMarker) {
+                this.closestPointMarker.getTransform().setWorldPosition(closestPointWorld);
+            }
+            // Trigger event if press value exceeds threshold and hasn't been triggered yet
+            if (this.pressValue >= this.pressThreshold && !this.hasTriggeredEvent) {
+                this.onPressThresholdReached();
+                this.hasTriggeredEvent = true;
+            }
+            // Reset the event trigger if the press value returns to 0 (top position)
+            if (this.pressValue <= 0 && this.hasTriggeredEvent) {
+                this.logger.debug("Press value reset to 0. Event can trigger again on next press.");
+                this.hasTriggeredEvent = false;
+            }
+        }
+        // Smoothly reset the press value to 0
+        smoothReset() {
+            if (!this.isResetting)
+                return;
+            // Increment reset progress based on time
+            this.resetProgress += getDeltaTime() / this.resetDuration;
+            this.resetProgress = (0, mathUtils_1.clamp)(this.resetProgress, 0, 1);
+            // Interpolate the closest point from its last position to the top (in local space)
+            const interpolatedPointLocal = (0, animate_1.mix)(this.lastClosestPointLocal, this.localTop, this.resetProgress);
+            // Update press value based on the interpolated point
+            const topToBottom = this.localBottom.sub(this.localTop);
+            const topToCurrent = interpolatedPointLocal.sub(this.localTop);
+            const projectionLength = topToCurrent.dot(topToBottom.normalize());
+            const totalLength = topToBottom.length;
+            this.pressValue = (0, mathUtils_1.clamp)(projectionLength / totalLength, 0, 1);
+            // Optionally move the marker to the interpolated point (convert back to world space for visualization)
+            if (this.closestPointMarker) {
+                const colliderTransform = this.colliderObject.getTransform();
+                const interpolatedPointWorld = colliderTransform.getWorldTransform().multiplyPoint(interpolatedPointLocal);
+                this.closestPointMarker.getTransform().setWorldPosition(interpolatedPointWorld);
+            }
+            // Reset the event trigger if the press value returns to 0
+            if (this.pressValue <= 0 && this.hasTriggeredEvent) {
+                this.logger.debug("Press value reset to 0 during smooth reset. Event can trigger again on next press.");
+                this.hasTriggeredEvent = false;
+            }
+            // Stop resetting when fully reset
+            if (this.resetProgress >= 1) {
+                this.isResetting = false;
+                this.resetProgress = 0;
+                this.pressValue = 0;
+                this.lastClosestPointLocal = this.localTop;
+                this.logger.debug("Smooth reset complete.");
+            }
+        }
+        // Event triggered when the press threshold is reached
+        onPressThresholdReached() {
+            this.logger.debug(`Press threshold of ${this.pressThreshold} reached! Triggering event.`);
+            if (this.next) {
+                this.navigateToNext();
+            }
+            else {
+                this.navigateToPrevious();
+            }
+        }
+        // Navigate to the next slide and synchronize across all platforms
+        navigateToNext() {
+            // Update local presentation
+            if (this.presentationSwitcher && !this.useGoogleSlide) {
+                this.presentationSwitcher.next();
+            }
+            // Update Google Slides via direct API
+            if (this.googleSlideBridge && this.useGoogleSlide) {
+                this.googleSlideBridge.next();
+            }
+            this.logger.debug("Going to next slide");
+        }
+        // Navigate to the previous slide and synchronize across all platforms
+        navigateToPrevious() {
+            // Update local presentation
+            if (this.presentationSwitcher && !this.useGoogleSlide) {
+                this.presentationSwitcher.previous();
+            }
+            // Update Google Slides via direct API
+            if (this.googleSlideBridge && this.useGoogleSlide) {
+                this.googleSlideBridge.previous();
+            }
+            this.logger.debug("Going to previous slide");
+        }
+        update() {
+            if (this.isInteracting) {
+                this.calculatePressValue();
+            }
+            if (this.isResetting) {
+                this.smoothReset();
+            }
+        }
+    };
+    __setFunctionName(_classThis, "SoftPressController");
+    (() => {
+        const _metadata = typeof Symbol === "function" && Symbol.metadata ? Object.create(_classSuper[Symbol.metadata] ?? null) : void 0;
+        __esDecorate(null, _classDescriptor = { value: _classThis }, _classDecorators, { kind: "class", name: _classThis.name, metadata: _metadata }, null, _classExtraInitializers);
+        SoftPressController = _classThis = _classDescriptor.value;
+        if (_metadata) Object.defineProperty(_classThis, Symbol.metadata, { enumerable: true, configurable: true, writable: true, value: _metadata });
+        __runInitializers(_classThis, _classExtraInitializers);
+    })();
+    return SoftPressController = _classThis;
+})();
+exports.SoftPressController = SoftPressController;
+//# sourceMappingURL=SoftPressController.js.map

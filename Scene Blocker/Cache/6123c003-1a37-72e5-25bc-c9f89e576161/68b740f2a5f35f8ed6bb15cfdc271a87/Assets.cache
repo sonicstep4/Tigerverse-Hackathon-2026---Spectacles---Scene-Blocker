@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    efea9cc4-206f-4e73-865c-775e548e44bb: 6123c003-1a37-72e5-25bc-c9f89e576161/68b740f2a5f35f8ed6bb15cfdc271a87/Data/Rectangle.png
+  Assets:
+    - !<FileTexture/efea9cc4-206f-4e73-865c-775e548e44bb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 600
+        Height: 100
+  SourceHash: 68b740f2a5f35f8ed6bb15cfdc271a87
+  FileHash: ddec8c653e91116b4293eac9dff5e18b
+  NativePackageItems:
+    []

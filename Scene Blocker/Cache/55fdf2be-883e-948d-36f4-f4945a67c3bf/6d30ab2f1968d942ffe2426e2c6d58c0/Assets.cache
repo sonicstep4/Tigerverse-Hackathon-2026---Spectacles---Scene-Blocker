@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    26fbb533-a584-45a0-878a-ade91d5ab7b9: 55fdf2be-883e-948d-36f4-f4945a67c3bf/6d30ab2f1968d942ffe2426e2c6d58c0/Data/bubble_high.mp3
+  Assets:
+    - !<FileAudioTrack/26fbb533-a584-45a0-878a-ade91d5ab7b9>
+      PackagePath: ""
+  SourceHash: 6d30ab2f1968d942ffe2426e2c6d58c0
+  FileHash: 29f977f41896f419dfc39379efda7341
+  NativePackageItems:
+    []

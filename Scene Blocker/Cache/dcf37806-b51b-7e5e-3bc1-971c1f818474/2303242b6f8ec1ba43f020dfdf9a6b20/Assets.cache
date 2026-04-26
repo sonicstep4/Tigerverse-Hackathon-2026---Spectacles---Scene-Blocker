@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a8635be6-0197-470c-bc36-61b9d4e65574: dcf37806-b51b-7e5e-3bc1-971c1f818474/2303242b6f8ec1ba43f020dfdf9a6b20/Data/soft-press-diagram.png
+  Assets:
+    - !<FileTexture/a8635be6-0197-470c-bc36-61b9d4e65574>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1372
+        Height: 1340
+  SourceHash: 2303242b6f8ec1ba43f020dfdf9a6b20
+  FileHash: e3e50a979bc8ed5699590a47a24287b3
+  NativePackageItems:
+    []

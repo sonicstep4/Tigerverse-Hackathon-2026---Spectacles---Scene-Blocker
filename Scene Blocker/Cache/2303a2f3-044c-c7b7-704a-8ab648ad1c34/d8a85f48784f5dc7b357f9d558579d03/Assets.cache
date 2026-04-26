@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    3bd2abb9-b962-406d-b1a3-1518c5461101: 2303a2f3-044c-c7b7-704a-8ab648ad1c34/d8a85f48784f5dc7b357f9d558579d03/Data/bubble_low.mp3
+  Assets:
+    - !<FileAudioTrack/3bd2abb9-b962-406d-b1a3-1518c5461101>
+      PackagePath: ""
+  SourceHash: d8a85f48784f5dc7b357f9d558579d03
+  FileHash: d99e86f9acb1183b7aacb65038c7a923
+  NativePackageItems:
+    []

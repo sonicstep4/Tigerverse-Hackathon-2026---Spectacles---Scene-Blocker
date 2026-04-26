@@ -1,0 +1,407 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 6bb2c13306065c789fd43703f823902f
+  FileHash: 0084fec404629c00d1e553004528cb0e
+  NativePackageItems:
+    - !<own> 08ce5cb2-755e-7f1b-3ba4-221860ff9120
+    - !<own> e7d2bc25-aa40-ec4b-429a-5a31577cec5a
+    - !<own> 181ad063-6105-c8ce-a7eb-4a061dcde80b
+    - !<own> 80a30370-fb82-1c62-ca90-bc71e122c31c
+    - !<own> 32d56468-fa28-e548-2966-dd5600fbb59f
+    - !<own> 92a2253d-a68c-60cd-b95e-48ba8bd20bdc
+    - !<own> 07a98787-dc83-9b86-c13d-2bd129cc9dcd
+    - !<own> 9b493de3-f8cb-6a0d-fdc6-22bf6305f6ff
+- !<AssetImportMetadata/07a98787-dc83-9b86-c13d-2bd129cc9dcd>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 139500ef-726c-4b2a-8f92-b222ac28a3de
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 139500ef-726c-4b2a-8f92-b222ac28a3de
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5a2c7ba7-de36-431a-9b1f-eebefe4dee14
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/08ce5cb2-755e-7f1b-3ba4-221860ff9120>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> a021470d-73a2-42b0-829d-d1d4eecf5e0d
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> a021470d-73a2-42b0-829d-d1d4eecf5e0d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> ccac8402-c615-4a2c-8db7-17b12231bafc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/17e26d62-602e-4170-83e3-e2fd26b4db5e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: bd3f85d0-b167-4ebe-8ebb-a0f4f2a76de8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/181ad063-6105-c8ce-a7eb-4a061dcde80b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 39433fe9-18b8-484b-9a3c-b099ce54023a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 39433fe9-18b8-484b-9a3c-b099ce54023a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 11g9RW0LDdEygLc80gdTWg
+  AssetDataMap:
+    JavaScriptAsset: !<own> 71933e9e-5312-4331-b765-a700744d903a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/32d56468-fa28-e548-2966-dd5600fbb59f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e1c4d97c-aa3e-44a5-8061-1e2d3f4c71cd
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e1c4d97c-aa3e-44a5-8061-1e2d3f4c71cd
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> bc56912f-ee08-4810-8b9a-19ca3c302e28
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5a2c7ba7-de36-431a-9b1f-eebefe4dee14>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: SceneManaerSplashScreenHandler
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 000600b5-400d-6118-0000-000000016068
+  ExportUid: 000600b5-400d-6118-0000-000000016069
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    minimalDuration: false
+    splashScreenSceneName: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - splashScreenSceneName: ""
+      minimalDuration: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+- !<ScriptComponent/6a33bbf4-5669-49f0-5c45-2fbb988e1002>
+  PrefabRemaps:
+    []
+  Name: SceneManager
+  Enabled: true
+  ScriptAsset: !<reference> e1c4d97c-aa3e-44a5-8061-1e2d3f4c71cd
+  ScriptInputsDefault:
+    localSceneRegistry: true
+    remoteSceneRegistry: true
+    customizeSceneManagerRoot: true
+    managerRoot: true
+    verbose: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      localSceneRegistry:
+        []
+      remoteSceneRegistry:
+        []
+      customizeSceneManagerRoot: false
+      managerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      verbose: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptAssetData/71933e9e-5312-4331-b765-a700744d903a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ddb5cf82-a3d9-4831-b06d-ed368aff267b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/80a30370-fb82-1c62-ca90-bc71e122c31c>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 67327df3-4c09-49e8-b045-231319fc7f5a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 67327df3-4c09-49e8-b045-231319fc7f5a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> fd661d6e-0300-4f2d-8da7-c47757a615a1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/92a2253d-a68c-60cd-b95e-48ba8bd20bdc>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 1f88a826-3b49-47ab-b3d4-3e09feeb8a95
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 1f88a826-3b49-47ab-b3d4-3e09feeb8a95
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> b1800940-c698-4095-9bee-e86de9b87f43
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/94e903a1-f717-45c9-7b56-6ed063db99e7>
+  PrefabRemaps:
+    []
+  Name: SceneManaerSplashScreenHandler
+  Enabled: false
+  ScriptAsset: !<reference> 139500ef-726c-4b2a-8f92-b222ac28a3de
+  ScriptInputsDefault:
+    splashScreenSceneName: true
+    minimalDuration: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      splashScreenSceneName: ""
+      minimalDuration: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/9b493de3-f8cb-6a0d-fdc6-22bf6305f6ff>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> e352af85-cf6b-45e0-8bd5-b337d2e2e8e9
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> e352af85-cf6b-45e0-8bd5-b337d2e2e8e9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b1800940-c698-4095-9bee-e86de9b87f43>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 330f76c8-faa6-4331-acf2-327dbb45c8ac
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<ScriptAssetData/bc56912f-ee08-4810-8b9a-19ca3c302e28>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: SceneManager
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00060063-d0ed-cb05-0000-000000002138
+  ExportUid: 00060063-d0ed-cb05-0000-000000002139
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    customizeSceneManagerRoot: false
+    localSceneRegistry: false
+    managerRoot: false
+    remoteSceneRegistry: false
+    verbose: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - localSceneRegistry:
+        []
+      remoteSceneRegistry:
+        []
+      customizeSceneManagerRoot: false
+      managerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      verbose: false
+  ScriptTypes:
+    -
+      {}
+- !<ScriptComponent/c9bbb17e-25a5-4ba1-61c7-e65d41008eab>
+  PrefabRemaps:
+    []
+  Name: SceneManaerStartSceneLoader
+  Enabled: false
+  ScriptAsset: !<reference> 67327df3-4c09-49e8-b045-231319fc7f5a
+  ScriptInputsDefault:
+    defaultStartSceneName: true
+    usePlatformSpecificStartScene: true
+    platformSceneInitConfigs: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      defaultStartSceneName: ""
+      usePlatformSpecificStartScene: false
+      platformSceneInitConfigs:
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/ccac8402-c615-4a2c-8db7-17b12231bafc>
+  Prototype: !<ObjectOwner/1f9d1ac3-f298-4705-86e9-73c39f8f77d2>
+    PackagePath: ""
+    objects:
+      - !<own> d8030ac6-8253-4d54-4c87-4a74ff5ee610
+- !<SceneObject/d8030ac6-8253-4d54-4c87-4a74ff5ee610>
+  PrefabRemaps:
+    []
+  Name: SceneManager__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6a33bbf4-5669-49f0-5c45-2fbb988e1002
+    - !<own> c9bbb17e-25a5-4ba1-61c7-e65d41008eab
+    - !<own> 94e903a1-f717-45c9-7b56-6ed063db99e7
+- !<AssetImportMetadata/e7d2bc25-aa40-ec4b-429a-5a31577cec5a>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d3887102-0a90-4db4-9262-905c3d83b9e9
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d3887102-0a90-4db4-9262-905c3d83b9e9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 2kJmVPnDf4NaVhSzaIwLKT
+  AssetDataMap:
+    JavaScriptAsset: !<own> 17e26d62-602e-4170-83e3-e2fd26b4db5e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/fd661d6e-0300-4f2d-8da7-c47757a615a1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: SceneManaerStartSceneLoader
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 000600b5-3fe7-7a46-0000-000000015cd9
+  ExportUid: 000600b5-3fe7-7a46-0000-000000015cda
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    defaultStartSceneName: false
+    platformSceneInitConfigs: false
+    usePlatformSpecificStartScene: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - defaultStartSceneName: ""
+      usePlatformSpecificStartScene: false
+      platformSceneInitConfigs:
+        []
+  ScriptTypes:
+    -
+      {}

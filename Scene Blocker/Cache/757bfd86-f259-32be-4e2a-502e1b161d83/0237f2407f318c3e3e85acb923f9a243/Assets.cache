@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    eaa7446a-23b1-40ad-b26f-eb004116b146: 757bfd86-f259-32be-4e2a-502e1b161d83/0237f2407f318c3e3e85acb923f9a243/Data/web-slide-viewer.png
+  Assets:
+    - !<FileTexture/eaa7446a-23b1-40ad-b26f-eb004116b146>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1306
+        Height: 1712
+  SourceHash: 0237f2407f318c3e3e85acb923f9a243
+  FileHash: eb544b28826e85d3d1886d068c2beaa3
+  NativePackageItems:
+    []

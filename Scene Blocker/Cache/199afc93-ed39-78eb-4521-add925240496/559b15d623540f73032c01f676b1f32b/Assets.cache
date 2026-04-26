@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    80b8715f-658e-4944-b27b-9bc443da900a: 199afc93-ed39-78eb-4521-add925240496/559b15d623540f73032c01f676b1f32b/Data/VertuoLine Descaling Guide.pdf
+  Assets:
+    - !<BinAsset/80b8715f-658e-4944-b27b-9bc443da900a>
+      PackagePath: ""
+  SourceHash: 559b15d623540f73032c01f676b1f32b
+  FileHash: ea9e220cd00b1c78b89ae7b043f182be
+  NativePackageItems:
+    []

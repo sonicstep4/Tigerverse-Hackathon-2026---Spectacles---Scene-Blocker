@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6903858c-5e9c-4834-96c8-6661a67092f7: 69f0e6c9-12c7-7372-54b6-6e59f4329326/51bb685129fa80be04dc7d987e8f3225/Data/mic.png
+  Assets:
+    - !<FileTexture/6903858c-5e9c-4834-96c8-6661a67092f7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1274
+        Height: 2048
+  SourceHash: 51bb685129fa80be04dc7d987e8f3225
+  FileHash: 07800d8e62e2834070769fde0685fbd0
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6a77e4ab-b3b5-4039-bfce-ddc5f32da110: 9bcc1a6f-c2e1-1cb9-4a31-3fe2dab996e5/86147f0aef29d36e2429ce735d8f9a92/Data/SliderTrack.mesh
+  Assets:
+    - !<FileMesh/6a77e4ab-b3b5-4039-bfce-ddc5f32da110>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1064
+        Vertices: 559
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 10.026899, y: 2.150000, z: 1.080000}
+  SourceHash: 86147f0aef29d36e2429ce735d8f9a92
+  FileHash: e054bb797ea0f9c1c86c68351ec75be3
+  NativePackageItems:
+    []

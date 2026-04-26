@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    db41c2b7-25c8-4155-97f5-e3a853c2693b: 3a307af6-2ea3-e292-f862-f3f051f3772c/f0ae769f1469ad44f07a574c7e559295/Data/tap_click7.mp3
+  Assets:
+    - !<FileAudioTrack/db41c2b7-25c8-4155-97f5-e3a853c2693b>
+      PackagePath: ""
+  SourceHash: f0ae769f1469ad44f07a574c7e559295
+  FileHash: 32c0e2a274079cc9ea737192e69defd9
+  NativePackageItems:
+    []

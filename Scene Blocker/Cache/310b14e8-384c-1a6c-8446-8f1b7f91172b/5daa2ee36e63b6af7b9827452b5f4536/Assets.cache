@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    01721060-a5d5-4c97-b672-b8c576886c9d: "310b14e8-384c-1a6c-8446-8f1b7f91172b/5daa2ee36e63b6af7b9827452b5f4536/Data/[MASTER] GDC Spectacles  (8).jpg"
+  Assets:
+    - !<FileTexture/01721060-a5d5-4c97-b672-b8c576886c9d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 960
+        Height: 540
+  SourceHash: 5daa2ee36e63b6af7b9827452b5f4536
+  FileHash: e2d5c883c9c5c8864ec88622796bc225
+  NativePackageItems:
+    []

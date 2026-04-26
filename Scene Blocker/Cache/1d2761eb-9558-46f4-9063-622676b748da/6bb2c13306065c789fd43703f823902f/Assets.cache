@@ -1,0 +1,407 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 6bb2c13306065c789fd43703f823902f
+  FileHash: 0084fec404629c00d1e553004528cb0e
+  NativePackageItems:
+    - !<own> 4c87f1d5-600e-3eb7-f446-2d2e4439d219
+    - !<own> 75930c67-4742-032f-49a2-8eccdedcd510
+    - !<own> 75740f39-1b04-3c39-2777-b2fd62e09e01
+    - !<own> b1f34b35-dc4d-a075-a044-77fde54a1b05
+    - !<own> d89f338e-b07e-6756-5dd9-675073266377
+    - !<own> 8bdb989d-fed6-468a-4aaa-86f3821058ec
+    - !<own> c613932e-cea6-0d49-6ea5-a66c684405f2
+    - !<own> 9314b1d8-b247-63e8-5405-0852fec5d62b
+- !<SceneObject/0b7b7311-ec92-49b5-77c4-4a97db1826bf>
+  PrefabRemaps:
+    []
+  Name: SceneManager__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2bcca023-1665-4db5-468a-fe09c22129c9
+    - !<own> ca07203d-0566-40b7-5303-7bc89921db66
+    - !<own> 23aea563-c666-442e-445b-daf41e2ab841
+- !<ScriptAssetData/1fbe9617-95e3-47b9-a15b-1744ffc658d4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: SceneManager
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00060063-d0ed-cb05-0000-000000002138
+  ExportUid: 00060063-d0ed-cb05-0000-000000002139
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    customizeSceneManagerRoot: false
+    localSceneRegistry: false
+    managerRoot: false
+    remoteSceneRegistry: false
+    verbose: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - localSceneRegistry:
+        []
+      remoteSceneRegistry:
+        []
+      customizeSceneManagerRoot: false
+      managerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      verbose: false
+  ScriptTypes:
+    -
+      {}
+- !<ScriptAssetData/2317bc94-ebde-4f64-a41d-7e7cda1c3bc9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: SceneManaerStartSceneLoader
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 000600b5-3fe7-7a46-0000-000000015cd9
+  ExportUid: 000600b5-3fe7-7a46-0000-000000015cda
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    defaultStartSceneName: false
+    platformSceneInitConfigs: false
+    usePlatformSpecificStartScene: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - defaultStartSceneName: ""
+      usePlatformSpecificStartScene: false
+      platformSceneInitConfigs:
+        []
+  ScriptTypes:
+    -
+      {}
+- !<ScriptComponent/23aea563-c666-442e-445b-daf41e2ab841>
+  PrefabRemaps:
+    []
+  Name: SceneManaerSplashScreenHandler
+  Enabled: false
+  ScriptAsset: !<reference> 797bfae1-6248-4566-beb2-f8bd62427f51
+  ScriptInputsDefault:
+    splashScreenSceneName: true
+    minimalDuration: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      splashScreenSceneName: ""
+      minimalDuration: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/2bcca023-1665-4db5-468a-fe09c22129c9>
+  PrefabRemaps:
+    []
+  Name: SceneManager
+  Enabled: true
+  ScriptAsset: !<reference> 8c42f308-d764-420c-a0ef-c922c6d25df1
+  ScriptInputsDefault:
+    localSceneRegistry: true
+    remoteSceneRegistry: true
+    customizeSceneManagerRoot: true
+    managerRoot: true
+    verbose: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      localSceneRegistry:
+        []
+      remoteSceneRegistry:
+        []
+      customizeSceneManagerRoot: false
+      managerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      verbose: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptAssetData/4394a3e5-ed50-4434-bc51-7403e8a91844>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: bd3f85d0-b167-4ebe-8ebb-a0f4f2a76de8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<ScriptAssetData/44121e1e-4c4b-4e99-90de-0e5b9ac3470e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: SceneManaerSplashScreenHandler
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 000600b5-400d-6118-0000-000000016068
+  ExportUid: 000600b5-400d-6118-0000-000000016069
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    minimalDuration: false
+    splashScreenSceneName: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - splashScreenSceneName: ""
+      minimalDuration: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+- !<ScriptAssetData/4a1b4126-b94d-49b6-a458-5647717a8044>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ddb5cf82-a3d9-4831-b06d-ed368aff267b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/4c87f1d5-600e-3eb7-f446-2d2e4439d219>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> e5f36fb0-9be1-4068-8cda-d92f30f23699
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> e5f36fb0-9be1-4068-8cda-d92f30f23699
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> e379a1de-f3ab-4fd6-aa06-ecc74e541b29
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/697998fd-b037-4a41-beca-dcbea750875e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 330f76c8-faa6-4331-acf2-327dbb45c8ac
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/75740f39-1b04-3c39-2777-b2fd62e09e01>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> da96c675-00a5-4279-8c75-57e0c9970542
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> da96c675-00a5-4279-8c75-57e0c9970542
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 11g9RW0LDdEygLc80gdTWg
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4a1b4126-b94d-49b6-a458-5647717a8044
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/75930c67-4742-032f-49a2-8eccdedcd510>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 86ff4449-a7e1-4ee2-8c04-cbad0d937faa
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 86ff4449-a7e1-4ee2-8c04-cbad0d937faa
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 2kJmVPnDf4NaVhSzaIwLKT
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4394a3e5-ed50-4434-bc51-7403e8a91844
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/8bdb989d-fed6-468a-4aaa-86f3821058ec>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> bf2b9765-fdc5-4411-801f-1de2280efed3
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> bf2b9765-fdc5-4411-801f-1de2280efed3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 697998fd-b037-4a41-beca-dcbea750875e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/9314b1d8-b247-63e8-5405-0852fec5d62b>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> cf8145eb-76a9-454e-83bb-3ba8fe6e6e57
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> cf8145eb-76a9-454e-83bb-3ba8fe6e6e57
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/b1f34b35-dc4d-a075-a044-77fde54a1b05>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 1ac02f73-3064-4a79-a412-5945061cd484
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 1ac02f73-3064-4a79-a412-5945061cd484
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 2317bc94-ebde-4f64-a41d-7e7cda1c3bc9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/c613932e-cea6-0d49-6ea5-a66c684405f2>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 797bfae1-6248-4566-beb2-f8bd62427f51
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 797bfae1-6248-4566-beb2-f8bd62427f51
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 44121e1e-4c4b-4e99-90de-0e5b9ac3470e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/ca07203d-0566-40b7-5303-7bc89921db66>
+  PrefabRemaps:
+    []
+  Name: SceneManaerStartSceneLoader
+  Enabled: false
+  ScriptAsset: !<reference> 1ac02f73-3064-4a79-a412-5945061cd484
+  ScriptInputsDefault:
+    defaultStartSceneName: true
+    usePlatformSpecificStartScene: true
+    platformSceneInitConfigs: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      defaultStartSceneName: ""
+      usePlatformSpecificStartScene: false
+      platformSceneInitConfigs:
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/d89f338e-b07e-6756-5dd9-675073266377>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 8c42f308-d764-420c-a0ef-c922c6d25df1
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 8c42f308-d764-420c-a0ef-c922c6d25df1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1fbe9617-95e3-47b9-a15b-1744ffc658d4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/e379a1de-f3ab-4fd6-aa06-ecc74e541b29>
+  Prototype: !<ObjectOwner/5e89fda1-ca8b-4e74-a484-18539f72c415>
+    PackagePath: ""
+    objects:
+      - !<own> 0b7b7311-ec92-49b5-77c4-4a97db1826bf

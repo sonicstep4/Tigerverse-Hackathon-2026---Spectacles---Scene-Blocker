@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    ddb41996-5d0e-4711-b7b1-31d9c2f5d0f4: 5f4f898b-0875-16e9-1918-d2d3fba90b29/6a3b6392152be1b3128dca3f9a487bfe/Data/tap_jump.mp3
+  Assets:
+    - !<FileAudioTrack/ddb41996-5d0e-4711-b7b1-31d9c2f5d0f4>
+      PackagePath: ""
+  SourceHash: 6a3b6392152be1b3128dca3f9a487bfe
+  FileHash: 4296deb08b272c4baecf662489030f07
+  NativePackageItems:
+    []

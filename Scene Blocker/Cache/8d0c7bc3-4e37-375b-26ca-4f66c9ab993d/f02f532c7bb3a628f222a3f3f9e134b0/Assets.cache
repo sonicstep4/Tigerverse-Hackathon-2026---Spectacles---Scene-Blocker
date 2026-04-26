@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    970db1fe-3473-410f-bdd6-91e0b7b9460b: 8d0c7bc3-4e37-375b-26ca-4f66c9ab993d/f02f532c7bb3a628f222a3f3f9e134b0/Data/mobile-divided.png
+  Assets:
+    - !<FileTexture/970db1fe-3473-410f-bdd6-91e0b7b9460b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1223
+        Height: 2048
+  SourceHash: f02f532c7bb3a628f222a3f3f9e134b0
+  FileHash: dc6fec355cc2318925132789bb1528ec
+  NativePackageItems:
+    []

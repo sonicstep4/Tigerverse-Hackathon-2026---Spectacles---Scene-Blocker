@@ -1,0 +1,402 @@
+- !<ObjectPrefab/24ace2a7-e285-42ac-a92a-2a22762be9ee>
+  PackagePath: ""
+  objects:
+    - !<own> 331edccb-36d9-4cd8-baaa-e0fce14144aa
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/13c8d0fa-f6b5-493b-9366-6ba9f2b519ac>
+  PrefabRemaps:
+    []
+  Name: VoiceController
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eac3e5f6-deb3-4127-9416-4a641195c5a5
+- !<SceneObject/24ac258e-fd79-4c70-b242-4b358ea1aab2>
+  PrefabRemaps:
+    []
+  Name: BlockingGuide
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d6fd5e5d-c2b0-4767-ab45-2e0379aebcc5
+  Components:
+    []
+- !<SceneObject/331edccb-36d9-4cd8-baaa-e0fce14144aa>
+  PrefabRemaps:
+    - 13c8d0fa-f6b5-493b-9366-6ba9f2b519ac: 5df7da1a-a2d1-483f-a556-e674bacc21ec
+    - 24ac258e-fd79-4c70-b242-4b358ea1aab2: 2420ced5-1ca5-4104-827c-944dad1067ab
+    - 331edccb-36d9-4cd8-baaa-e0fce14144aa: 331edccb-36d9-4cd8-4555-1f031ebebb55
+    - 56d39b31-ae15-4867-9c59-ed1f634a21d9: c1692e29-861b-4cd3-9c96-07f7b17a6867
+    - 57a91e4f-23a4-49c5-9e5d-c1056c8c5828: 17e85151-5646-47e9-a2bf-2defcef97ccf
+    - 5b98a21d-df16-408e-ab2a-06de86663a94: 28ea824f-3604-4ac7-b90e-7d3ac4f4e868
+    - 5beb1c51-4c5f-41de-a012-2c30f53a5b71: 422dcfc1-aa1b-4a23-aaf5-071a0c32f2ad
+    - 622dc468-eb43-46b7-a93a-4af95871f6bf: 622dc468-eb43-46b7-56c5-b506a78e0940
+    - 701cbba3-353f-462f-8bc0-a846a6bd2d06: 701cbba3-353f-462f-743f-57b95942d2f9
+    - 7499d02e-78ff-4b18-a809-35f1a322fb06: 0f23c63b-b51e-488a-99b3-3d5af0bc8e1a
+    - 83673a8c-645e-428f-a0b8-6864e7a76ead: 3584014e-00d9-4e42-b454-7393d07e14b4
+    - 86db596d-4c0f-4d82-b961-517a32491ead: 86db596d-4c0f-4d82-469e-ae85cdb6e152
+    - 8d5b972d-073d-450c-8845-b1750c47d9d7: 0731497c-5259-4d1c-a1fa-b6441f270835
+    - b692a549-5c22-4767-bad0-149a2e3a4884: d378b82c-4791-4f84-bc83-b717cdd6f649
+    - d6fd5e5d-c2b0-4767-ab45-2e0379aebcc5: c5e777b3-1ae6-428a-8f57-d1d920b12f7e
+    - e2035430-4158-4003-a1a3-486bb258b07f: c33af7cd-337d-4f20-967a-697733f1b284
+    - eac3e5f6-deb3-4127-9416-4a641195c5a5: 4213ecdf-92e7-4db7-8eb7-8928cf2a05be
+  Name: SceneManager__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8d5b972d-073d-450c-8845-b1750c47d9d7
+    - !<own> e2035430-4158-4003-a1a3-486bb258b07f
+    - !<own> 5beb1c51-4c5f-41de-a012-2c30f53a5b71
+    - !<own> 24ac258e-fd79-4c70-b242-4b358ea1aab2
+    - !<own> 13c8d0fa-f6b5-493b-9366-6ba9f2b519ac
+    - !<own> 5b98a21d-df16-408e-ab2a-06de86663a94
+  Components:
+    - !<own> 701cbba3-353f-462f-8bc0-a846a6bd2d06
+    - !<own> 86db596d-4c0f-4d82-b961-517a32491ead
+    - !<own> 622dc468-eb43-46b7-a93a-4af95871f6bf
+- !<SceneObject/56d39b31-ae15-4867-9c59-ed1f634a21d9>
+  PrefabRemaps:
+    []
+  Name: StageCalibrationController
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 83673a8c-645e-428f-a0b8-6864e7a76ead
+- !<ScriptComponent/57a91e4f-23a4-49c5-9e5d-c1056c8c5828>
+  PrefabRemaps:
+    []
+  Name: SimplePresentationButtons
+  Enabled: true
+  ScriptAsset: !<reference> 92bdb6ba-8fb2-4913-ad68-048b2e2a4903
+  ScriptInputsDefault:
+    nextButton: true
+    previousButton: true
+    statusText: true
+    micToggleButton: true
+    speechController: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      presentationSwitcher: !<MappingBased.AssignableType> b692a549-5c22-4767-bad0-149a2e3a4884
+      nextButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      previousButton: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      statusText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      micToggleButton: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      speechController: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/5b98a21d-df16-408e-ab2a-06de86663a94>
+  PrefabRemaps:
+    []
+  Name: ButtonRig
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 120.000000, z: 140.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/5beb1c51-4c5f-41de-a012-2c30f53a5b71>
+  PrefabRemaps:
+    []
+  Name: PresentationSwitcher
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b692a549-5c22-4767-bad0-149a2e3a4884
+- !<ScriptComponent/622dc468-eb43-46b7-a93a-4af95871f6bf>
+  PrefabRemaps:
+    []
+  Name: SceneManaerSplashScreenHandler
+  Enabled: false
+  ScriptAsset: !<reference> 6ab1b6f8-52bb-4102-8193-484790ea9fae
+  ScriptInputsDefault:
+    splashScreenSceneName: true
+    minimalDuration: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      splashScreenSceneName: ""
+      minimalDuration: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/701cbba3-353f-462f-8bc0-a846a6bd2d06>
+  PrefabRemaps:
+    []
+  Name: SceneManager
+  Enabled: true
+  ScriptAsset: !<reference> bea1a2f6-31e9-47d9-a630-d336e9bef82f
+  ScriptInputsDefault:
+    localSceneRegistry: true
+    remoteSceneRegistry: true
+    customizeSceneManagerRoot: true
+    managerRoot: true
+    verbose: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      localSceneRegistry:
+        []
+      remoteSceneRegistry:
+        []
+      customizeSceneManagerRoot: false
+      managerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      verbose: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/7499d02e-78ff-4b18-a809-35f1a322fb06>
+  PrefabRemaps:
+    []
+  Name: BlockingGuideController
+  Enabled: true
+  ScriptAsset: !<reference> 5ab19353-0f8a-46b2-9244-afefce837be5
+  ScriptInputsDefault:
+    firstContentSlideIndex: true
+    pathHeight: true
+    pathCapLength: true
+    pathCapSegments: true
+    floorYOffset: true
+    pathLift: true
+    targetYOffset: true
+    targetScale: true
+    extendPastPlayer: true
+    extendPastTarget: true
+    lockPathToGroundPlane: true
+    usePlayerEstimatedGroundPlane: true
+    playerToFloorOffset: true
+    pulsePathColor: true
+    pulseSpeed: true
+    scrollPathTexture: true
+    textureScrollSpeed: true
+    textureScrollU: true
+    textureScrollV: true
+    pulseColorA: true
+    pulseColorB: true
+    debugLogs: true
+    debugLogInterval: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      presentationSwitcher: !<MappingBased.AssignableType> b692a549-5c22-4767-bad0-149a2e3a4884
+      waypointRoot: !<reference.SceneObject> ceaf9ee7-1af6-4c1f-b8fd-1d794e4d907f
+      firstContentSlideIndex: !<float> 1.000000
+      pathVisual: !<reference.RenderMeshVisual> 9704fde6-c4bb-4590-b693-54c71f3e8e7b
+      targetMarker: !<reference.SceneObject> 6e707cc4-a3dd-4bbc-a76b-45cd7964ed17
+      playerReference: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
+      pathWidth: !<float> 60.000000
+      pathHeight: !<float> 6.000000
+      pathCapLength: !<float> 12.000000
+      pathCapSegments: !<float> 4.000000
+      floorYOffset: !<float> 2.000000
+      pathLift: !<float> 0.000000
+      targetYOffset: !<float> 4.000000
+      targetScale: 0.850000
+      extendPastPlayer: !<float> 20.000000
+      extendPastTarget: !<float> 30.000000
+      lockPathToGroundPlane: true
+      usePlayerEstimatedGroundPlane: true
+      playerToFloorOffset: !<float> -140.000000
+      pulsePathColor: true
+      pulseSpeed: 1.200000
+      scrollPathTexture: true
+      textureScrollSpeed: 0.350000
+      textureScrollU: !<float> 0.000000
+      textureScrollV: !<float> -1.000000
+      pulseColorA: !<Vec4> {x: 0.100000, y: 0.900000, z: 1.000000, w: 1.000000}
+      pulseColorB: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.200000, w: 1.000000}
+      debugLogs: true
+      debugLogInterval: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/83673a8c-645e-428f-a0b8-6864e7a76ead>
+  PrefabRemaps:
+    []
+  Name: StageCalibrationController
+  Enabled: true
+  ScriptAsset: !<reference> c57c2434-0aef-40ce-89b1-d4c57514c838
+  ScriptInputsDefault:
+    calibrateButton: true
+    autoCalibrateOnStart: true
+    xOffset: true
+    yOffset: true
+    cameraRelativeYOffset: true
+    debugLogs: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      stageRoot: !<reference.SceneObject> 6ade03ee-9a0d-46df-be2d-bc16a368e65e
+      cameraObject: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
+      calibrateButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      autoCalibrateOnStart: true
+      forwardDistance: !<float> -160.000000
+      xOffset: !<float> 0.000000
+      yOffset: !<float> 0.000000
+      keepCurrentY: true
+      useCameraRelativeY: false
+      cameraRelativeYOffset: !<float> -120.000000
+      debugLogs: true
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/86db596d-4c0f-4d82-b961-517a32491ead>
+  PrefabRemaps:
+    []
+  Name: SceneManaerStartSceneLoader
+  Enabled: false
+  ScriptAsset: !<reference> 930cf092-6b6e-454e-b6be-fbe6c8d402c4
+  ScriptInputsDefault:
+    defaultStartSceneName: true
+    usePlatformSpecificStartScene: true
+    platformSceneInitConfigs: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      defaultStartSceneName: ""
+      usePlatformSpecificStartScene: false
+      platformSceneInitConfigs:
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/8d5b972d-073d-450c-8845-b1750c47d9d7>
+  PrefabRemaps:
+    []
+  Name: SimplePresentationButtons
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 57a91e4f-23a4-49c5-9e5d-c1056c8c5828
+- !<ScriptComponent/b692a549-5c22-4767-bad0-149a2e3a4884>
+  PrefabRemaps:
+    []
+  Name: PresentationSwitcher
+  Enabled: true
+  ScriptAsset: !<reference> 186545c9-ca97-4158-a9c1-021cedca0fbe
+  ScriptInputsDefault:
+    loopStartIndex: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      parentObject: !<reference.SceneObject> 1242d99b-2c4d-4f0d-8d5e-9911ee07c5f3
+      loopStartIndex: !<float> 0.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/d6fd5e5d-c2b0-4767-ab45-2e0379aebcc5>
+  PrefabRemaps:
+    []
+  Name: BlockingGuideController
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7499d02e-78ff-4b18-a809-35f1a322fb06
+- !<SceneObject/e2035430-4158-4003-a1a3-486bb258b07f>
+  PrefabRemaps:
+    []
+  Name: stageCalibration
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 56d39b31-ae15-4867-9c59-ed1f634a21d9
+  Components:
+    []
+- !<ScriptComponent/eac3e5f6-deb3-4127-9416-4a641195c5a5>
+  PrefabRemaps:
+    []
+  Name: VoiceController
+  Enabled: true
+  ScriptAsset: !<reference> a14e77f3-e83a-475e-8bf5-2890eadd85b9
+  ScriptInputsDefault:
+    commandDelay: true
+    useGoogleSlide: true
+    autoStartListening: true
+    firstContentSlideIndex: true
+    startPhrase: true
+    stageCalibrationController: true
+    lineAdvanceSfx: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      text: !<reference.Text> 0a1a699a-afa7-4439-b97b-726702a95a5a
+      presentationSwitcher: !<MappingBased.AssignableType> b692a549-5c22-4767-bad0-149a2e3a4884
+      googleSlideBridge: !<MappingBased.AssignableType_1> e7609cad-9623-411a-98bb-d7c5f2c388ab
+      commandDelay: !<float> 2.000000
+      buttonImage: !<reference.Image> 41529008-ed70-47ff-8c12-17da1a294fdc
+      normalMicImage: !<reference.Texture> bb0396f5-919c-4235-b0a2-a914e698cb66
+      listeningMicImage: !<reference.Texture> c17c2de5-8704-4e09-b3b3-7439b73ceba7
+      useGoogleSlide: false
+      autoStartListening: false
+      firstContentSlideIndex: !<float> 1.000000
+      startPhrase: start
+      stageCalibrationController: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      lineAdvanceSfx: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}

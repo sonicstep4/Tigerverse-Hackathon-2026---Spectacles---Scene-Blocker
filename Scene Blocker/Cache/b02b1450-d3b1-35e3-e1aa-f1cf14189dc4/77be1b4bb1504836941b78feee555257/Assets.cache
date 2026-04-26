@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    af7ed607-0f53-4f74-8d4c-f9426fb11cfa: b02b1450-d3b1-35e3-e1aa-f1cf14189dc4/77be1b4bb1504836941b78feee555257/Data/VertuoMachine.png
+  Assets:
+    - !<FileTexture/af7ed607-0f53-4f74-8d4c-f9426fb11cfa>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 670
+        Height: 1104
+  SourceHash: 77be1b4bb1504836941b78feee555257
+  FileHash: ba3c909841da51a91966e0b52369c99f
+  NativePackageItems:
+    []
